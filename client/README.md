@@ -23,6 +23,4 @@ Want to see it for yourself?
     npm init
     npm i concurrently
     npm i live-server
-    
-
 ```

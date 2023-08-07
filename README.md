@@ -14,15 +14,25 @@ Want to see it for yourself?
 
 ## Cloning The Repo
 
+Install **Docker** from here: https://www.docker.com/
 Open **GitBash** on your system, or install it if you don't. Link for Git here: https://git-scm.com/downloads
 
 Create and move to a directory folder. Do this by running:
 ```
-    mkdir <directory_name>
-    cd <directory_name>
+mkdir <directory_name>
+cd <directory_name>
 ```
 
-Clone this repo:
+Clone this repo into your new directory:
 ```
-    git clone git@github.com:emptybagelman/GeoKnight-Dockerized.git
+git clone git@github.com:emptybagelman/GeoKnight-Dockerized.git
 ```
+
+From the directory you made, in **GitBash**, run:
+```
+docker compose up
+```
+
+To view **_GeoKnight_**, open your browser of choice, and in the search bar type: ```localhost:8080```
+
+Or, to view the backend .json, type: ```localhost:3000```, if you're feeling frisky :)
